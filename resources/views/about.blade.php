@@ -9,12 +9,8 @@
 </head>
 
 <body>
-    <ul>
-        <li><a href="{{ route('/') }}">Home</a></li>
-        <li><a href="{{ route('about.us') }}">About</a></li>
-        <li><a href="{{ route('contact.us') }}">Contact</a></li>
-        <li><a href="{{ route('country') }}">Country</a></li>
-    </ul>
+    <h1>This is About Page</h1>
+    <a href="{{route("/")}}">Go home</a>
 </body>
 
 </html>
